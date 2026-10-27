@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eternal Engine</title>
+<meta name="description" content="Eternal Engine: a dark fantasy survivor roguelite played on a tabletop battlefield in VR, for Meta Quest and PC VR.">
+<link rel="icon" href="img/icon.png">
+<style>
+  :root { --bg: #0d0718; --panel: #1a1030; --line: #2c1f4a; --text: #ece4ff; --muted: #b3a6cf; --accent: #6ff3e8; --gold: #ffd84a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  .hero { position: relative; background: #000 url(img/hero.jpg) center/cover no-repeat; aspect-ratio: 10 / 3; min-height: 220px; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 60%, var(--bg)); }
+  main { max-width: 1040px; margin: 0 auto; padding: 8px 16px 48px; }
+  .tag { text-align: center; font-size: 1.25rem; font-style: italic; color: var(--muted); margin: 8px 0 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 24px 0; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .card b { display: block; color: var(--gold); font-size: 1.6rem; line-height: 1.1; }
+  h2 { color: var(--accent); margin: 40px 0 10px; font-size: 1.4rem; }
+  video { width: 100%; border-radius: 12px; border: 1px solid var(--line); background: #000; display: block; }
+  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  .shots img { width: 100%; border-radius: 10px; border: 1px solid var(--line); display: block; }
+  ul { padding-left: 20px; }
+  footer { border-top: 1px solid var(--line); text-align: center; padding: 28px 16px; color: var(--muted); font-size: 14px; }
+  footer img { width: 72px; display: block; margin: 0 auto 10px; }
+</style>
+</head>
+<body>
+<div class="hero" role="img" aria-label="Eternal Engine key art"></div>
+<main>
+  <p class="tag">If nothing could ever end, could anything ever truly begin?</p>
+
+  <p>The Eternal Engine has turned against the world, and every fallen champion it brings back to life. Choose a hero, step up to a tabletop battlefield in front of you, and fight through endless hordes as your weapons fire on their own. Level up, combine weapons and runes into powerful evolutions, and push deeper toward the heart of the Engine to break the cycle.</p>
+
+  <div class="grid">
+    <div class="card"><b>10</b>heroes, each with their own starting weapon</div>
+    <div class="card"><b>60</b>weapons and 60 evolutions</div>
+    <div class="card"><b>6</b>stages, from the Forgotten Battleground to the Heart of the Engine</div>
+    <div class="card"><b>55</b>enemies and 6 bosses</div>
+  </div>
+
+  <h2>Features</h2>
+  <ul>
+    <li>A survivor roguelite you play standing or seated, looking down on a living tabletop battlefield.</li>
+    <li>Move with the thumbstick; your weapons attack automatically. Hundreds of enemies on screen at once.</li>
+    <li>Level-up choices, chests, shrines and rerolls make every run different.</li>
+    <li>Recover lost memories, unlock heroes and upgrades in the Sanctuary, and discover three endings.</li>
+    <li>Adjust the table's height, size, tilt and distance so it fits your space.</li>
+    <li>Fully offline. No accounts, no ads, no data collected.</li>
+  </ul>
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="img/shot1.jpg" alt="The tabletop battlefield with the status bar above it" loading="lazy">
+    <img src="img/shot5.jpg" alt="A huge horde around a glowing sigil" loading="lazy">
+    <img src="img/shot3.jpg" alt="Low view across the board with fire trails" loading="lazy">
+    <img src="img/shot4.jpg" alt="Enemies on the catacomb flagstones" loading="lazy">
+    <img src="img/shot2.jpg" alt="Spells across the Rotting Kingdom" loading="lazy">
+  </div>
+
+  <h2>Platforms</h2>
+  <p>Meta Quest, and PC VR.</p>
+</main>
+<footer>
+  <img src="img/studio.png" alt="Grindhouse Digital">
+  © 2026 Grindhouse Digital · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:drsgaming9000@gmail.com">Contact</a>
+</footer>
+</body>
+</html>
